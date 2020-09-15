@@ -1,0 +1,75 @@
+html,
+
+li a {
+    color:  white;
+}
+
+body {
+    background: white url("images/background.gif") no-repeat;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column wrap;
+    align-items: stretch;
+   
+}
+
+.container-sm{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-items:  center;
+}
+
+.flex-item{
+    background: pink;
+    padding: 5px;
+    margin-top: 10px;
+    line-height: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    
+}
+.item{
+    background: peachpuff;
+    padding: 5px;
+    margin-top: 10px;
+    line-height: 100px;
+    color: black;
+    font-size: 2em;
+    text-align: center;
+
+}
+h1{
+    color: black;
+    text-align: center;
+    background-color: palevioletred
+}
+
+.btn {
+    
+    height: 50px;
+}
+
+h2 {
+    background-color: pink;
+    text-align: center;
+}
+
+.form-group {
+    align-items: center;
+}
+
+.list-group {
+    background-color: yellow;
+}
+
+.page-footer{
+    color: black;
+    text-align: center;
+
+}
